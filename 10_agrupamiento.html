@@ -1,0 +1,77 @@
+<!-- Valdillez Alamos Eduardo 5-J 0903 -->
+<!-- Tipo de documento HTML5 -->
+<!DOCTYPE html>
+<!-- Inicio del documento, idioma ingles -->
+<html lang="en">
+<!-- Inicio de la cabecera -->
+<head>
+<!-- Codificacion de caracteres -->
+<meta charset="UTF-8">
+<!-- Adapta la pagina a la pantalla -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Titulo de la pestaña -->
+<title>Formularios con agrupamiento</title>
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/7.3.1/css/all.min.css">
+<!-- Fin de la cabecera -->
+</head>
+<!-- Inicio del cuerpo -->
+<body>
+<!-- Titulo principal -->
+<h1>Formularios con agrupamiento</h1>
+<!-- Inicio del formulario -->
+<form action="" method="post">
+<!-- Inicio del primer grupo -->
+<fieldset>
+<!-- Titulo del grupo -->
+<legend>Datos personales</legend>
+<!-- Texto para el nombre -->
+Nombre y apellido:
+<!-- Caja de texto -->
+<input type="text" name="nombre_apellido">
+<!-- Salto de linea -->
+<br>
+<!-- Texto para el documento -->
+Documento valido:
+<!-- Selector de archivo -->
+<input type="file" name="documento">
+<!-- Salto de linea -->
+<br>
+<!-- Texto y selector de fecha -->
+Fecha de nacimiento:<input type="date" name="fecha_nacimiento">
+<!-- Fin del primer grupo -->
+</fieldset>
+<!-- Inicio del segundo grupo -->
+<fieldset>
+<!-- Titulo del grupo -->
+<legend>Datos de estudio:</legend>
+<!-- Texto para la escuela -->
+Nombre de la escuela:
+<!-- Caja de texto -->
+<input type="text" name="escuela">
+<!-- Salto de linea -->
+<br>
+<!-- Texto para el certificado -->
+Certificado valido:
+<!-- Selector de archivo -->
+<input type="file" name="certificado">
+<!-- Salto de linea -->
+<br>
+<!-- Texto para la fecha -->
+Fecha de egreso:
+<!-- Selector de fecha -->
+<input type="date" name="fecha_egreso">
+<!-- Fin del segundo grupo -->
+</fieldset>
+<!-- Salto de linea -->
+<br>
+<!-- Boton enviar con icono -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+<!-- Boton borrar con icono -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+<!-- Fin del formulario -->
+</form>
+<!-- Fin del cuerpo -->
+</body>
+<!-- Fin del documento -->
+</html>
